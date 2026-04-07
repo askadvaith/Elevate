@@ -1,0 +1,20 @@
+Elevate is a lightweight, open-source task manager designed for productivity with privacy in mind.
+
+Key Features:
+• Create and organize tasks with deadlines
+• Intelligently scheduled reminders for important tasks
+• Support for recurring tasks (daily, weekly, monthly)
+• Minimalist, distraction-free interface
+• Fast and responsive performance
+• 100% offline functionality – no cloud, no tracking
+• Built with React and Capacitor for optimal performance
+
+The app stores all your data locally on your device. No account creation required, no ads, and completely free to use.
+
+Perfect for:
+- Daily task tracking
+- Project planning
+- Personal productivity
+- Habit building with recurring tasks
+
+Elevate is free and open-source software (FOSS) licensed under the GNU General Public License v3 (GPLv3). Contribute on GitHub or report issues to help us improve the app.

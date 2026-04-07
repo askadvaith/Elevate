@@ -1,0 +1,129 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-background: var(--md-sys-color-background);
+  --color-on-background: var(--md-sys-color-on-background);
+  --color-surface: var(--md-sys-color-surface);
+  --color-surface-dim: var(--md-sys-color-surface-dim);
+  --color-surface-bright: var(--md-sys-color-surface-bright);
+  --color-surface-container-lowest: var(--md-sys-color-surface-container-lowest);
+  --color-surface-container-low: var(--md-sys-color-surface-container-low);
+  --color-surface-container: var(--md-sys-color-surface-container);
+  --color-surface-container-high: var(--md-sys-color-surface-container-high);
+  --color-surface-container-highest: var(--md-sys-color-surface-container-highest);
+  --color-on-surface: var(--md-sys-color-on-surface);
+  --color-on-surface-variant: var(--md-sys-color-on-surface-variant);
+  --color-outline: var(--md-sys-color-outline);
+  --color-outline-variant: var(--md-sys-color-outline-variant);
+
+  --color-primary: var(--md-sys-color-primary);
+  --color-on-primary: var(--md-sys-color-on-primary);
+  --color-primary-container: var(--md-sys-color-primary-container);
+  --color-on-primary-container: var(--md-sys-color-on-primary-container);
+  
+  --color-secondary: var(--md-sys-color-secondary);
+  --color-on-secondary: var(--md-sys-color-on-secondary);
+  --color-secondary-container: var(--md-sys-color-secondary-container);
+  --color-on-secondary-container: var(--md-sys-color-on-secondary-container);
+
+  --color-tertiary: var(--md-sys-color-tertiary);
+  --color-on-tertiary: var(--md-sys-color-on-tertiary);
+  --color-tertiary-container: var(--md-sys-color-tertiary-container);
+  --color-on-tertiary-container: var(--md-sys-color-on-tertiary-container);
+
+  --color-error: var(--md-sys-color-error);
+  --color-on-error: var(--md-sys-color-on-error);
+  --color-error-container: var(--md-sys-color-error-container);
+  --color-on-error-container: var(--md-sys-color-on-error-container);
+}
+
+@layer base {
+  :root {
+    --md-sys-color-background: #f9f9f9;
+    --md-sys-color-on-background: #1a1c1e;
+    --md-sys-color-surface: #f9f9f9;
+    --md-sys-color-surface-dim: #dadddd;
+    --md-sys-color-surface-bright: #f9f9f9;
+    --md-sys-color-surface-container-lowest: #ffffff;
+    --md-sys-color-surface-container-low: #f2f4f4;
+    --md-sys-color-surface-container: #eceeef;
+    --md-sys-color-surface-container-high: #e6e9e9;
+    --md-sys-color-surface-container-highest: #dfe3e4;
+    --md-sys-color-on-surface: #2f3334;
+    --md-sys-color-on-surface-variant: #5b6061;
+    --md-sys-color-outline: #777b7c;
+    --md-sys-color-outline-variant: #aeb3b3;
+
+    --md-sys-color-primary: #4e5e8b;
+    --md-sys-color-on-primary: #ffffff;
+    --md-sys-color-primary-container: #b0c0f4;
+    --md-sys-color-on-primary-container: #2b3b66;
+
+    --md-sys-color-secondary: #595e72;
+    --md-sys-color-on-secondary: #ffffff;
+    --md-sys-color-secondary-container: #dde2f9;
+    --md-sys-color-on-secondary-container: #4c5164;
+
+    --md-sys-color-tertiary: #6c567f;
+    --md-sys-color-on-tertiary: #ffffff;
+    --md-sys-color-tertiary-container: #e8cdfd;
+    --md-sys-color-on-tertiary-container: #57426a;
+
+    --md-sys-color-error: #a83836;
+    --md-sys-color-on-error: #ffffff;
+    --md-sys-color-error-container: #ffdad6;
+    --md-sys-color-on-error-container: #410002;
+  }
+
+  .dark {
+    --md-sys-color-background: #111315;
+    --md-sys-color-on-background: #e2e2e5;
+    --md-sys-color-surface: #111315;
+    --md-sys-color-surface-dim: #111315;
+    --md-sys-color-surface-bright: #37393b;
+    --md-sys-color-surface-container-lowest: #0c0e10;
+    --md-sys-color-surface-container-low: #191c1e;
+    --md-sys-color-surface-container: #1d2022;
+    --md-sys-color-surface-container-high: #272a2c;
+    --md-sys-color-surface-container-highest: #323537;
+    --md-sys-color-on-surface: #e2e2e5;
+    --md-sys-color-on-surface-variant: #c0c7c8;
+    --md-sys-color-outline: #899293;
+    --md-sys-color-outline-variant: #404849;
+
+    --md-sys-color-primary: #b3c5ff;
+    --md-sys-color-on-primary: #1e2f5a;
+    --md-sys-color-primary-container: #364671;
+    --md-sys-color-on-primary-container: #d9e2ff;
+
+    --md-sys-color-secondary: #c1c6dd;
+    --md-sys-color-on-secondary: #2b3042;
+    --md-sys-color-secondary-container: #414659;
+    --md-sys-color-on-secondary-container: #dde2f9;
+
+    --md-sys-color-tertiary: #dfbcf7;
+    --md-sys-color-on-tertiary: #3c284e;
+    --md-sys-color-tertiary-container: #533e66;
+    --md-sys-color-on-tertiary-container: #f6d8ff;
+
+    --md-sys-color-error: #ffb4ab;
+    --md-sys-color-on-error: #690005;
+    --md-sys-color-error-container: #93000a;
+    --md-sys-color-on-error-container: #ffdad6;
+  }
+
+  body {
+    @apply bg-background text-on-background font-sans antialiased;        
+  }
+}
+
+.glass {
+  @apply bg-background/80 backdrop-blur-xl border border-outline-variant/20 dark:bg-background/60;
+}
+
+.tonal-shift {
+  @apply bg-surface-container-low;
+}
