@@ -1,0 +1,10 @@
+Elevate is a minimalist task management app with the following features:
+
+- Create, view, and manage tasks with ease
+- Set task due dates and smart reminders
+- Support for recurring tasks
+- Beautiful, responsive UI optimized for mobile
+- Local data storage, no cloud dependency
+- Works fully offline
+
+Built with React and Capacitor for cross-platform compatibility.

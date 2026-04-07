@@ -1,0 +1,16 @@
+## Keystore signing properties for release builds - TEMPLATE
+## Copy this file to gradle.properties and fill in your actual values
+## gradle.properties is listed in .gitignore to prevent accidental password commits
+
+# Path to the keystore file (relative to the android/ folder) or absolute path
+# Example: upload-keystore.jks or C:\Users\YourName\path\to\upload-keystore.jks
+MYAPP_UPLOAD_STORE_FILE=upload-keystore.jks
+
+# Keystore password (created when you generated the keystore with keytool)
+MYAPP_UPLOAD_STORE_PASSWORD=YOUR_KEYSTORE_PASSWORD_HERE
+
+# Key alias (usually 'upload' unless you named it differently)
+MYAPP_UPLOAD_KEY_ALIAS=upload
+
+# Key password (created when you generated the keystore with keytool)
+MYAPP_UPLOAD_KEY_PASSWORD=YOUR_KEY_PASSWORD_HERE

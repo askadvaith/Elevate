@@ -6,7 +6,13 @@ coverage/
 *.log
 .env*
 !.env.example
-android/
 ios/
 logo_final.png
+
+# Android-specific exclusions (keep android/ source, exclude build artifacts)
+android/build/
+android/.gradle/
+android/.idea/
+android/local.properties
+android/gradle.properties
 upload-keystore.jks
